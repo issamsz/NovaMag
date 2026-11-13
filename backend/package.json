@@ -1,0 +1,17 @@
+{
+  "name": "novamag-backend",
+  "version": "1.0.0",
+  "description": "NovaMag - Modern Supermarket POS & Inventory Management Backend",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "express": "^4.22.3",
+    "jsonwebtoken": "^9.0.3"
+  }
+}
